@@ -1,19 +1,25 @@
 # Simple-Linear-Regression-using-SPSS
-Finding impact of brand favorability on brand recommendation by performing the Simple Linear Regression and decipher the strength and nature of this relationship.
 
-Q5_1(Brand X brand favorability impact) is independent variable and Q7_1 (Brand X brand recommendation) is dependent variable.
-Since we have one independent variable and one dependent variable, and both are interval scale so we will perform the Simple Linear Regression to built the relationship between these variables.
-**Null Hypothesis H0:** There is no linear relationship between brand favorability for Band X with Brand recommendation for Brand X
+## Project Overview
+This project explores the relationship between brand favorability and brand recommendation for Brand X. Utilizing Simple Linear Regression analysis, this study aims to quantify how changes in brand favorability impact the likelihood of the brand being recommended.
 
-![image](https://github.com/bhupeshdod/Simple-Linear-Regression-using-SPSS/assets/141383468/953f7a28-773d-4967-a653-038c955c75c5)
+## Objectives
+- To determine the strength and nature of the relationship between brand favorability and brand recommendation.
+- To develop a predictive model that quantifies this relationship for practical application.
 
-The above table shows the summary of linear regression model build through SPSS using the given dataset, we can say there is moderate positive correlation between brand favorability and recommendation with **r = 0.620, p <0.001
-And Since R squared is 0.385**, we can say that 38.5% variance in brand recommendation is explained by brand favorability for Band X.
+## Methodology
+- **Statistical Tool Used**: SPSS
+- **Model**: Simple Linear Regression
+- **Variables**:
+  - Independent Variable: Brand X brand favorability (Q5_1)
+  - Dependent Variable: Brand X brand recommendation (Q7_1)
+- **Hypothesis**:
+  - Null Hypothesis (H0): There is no linear relationship between brand favorability and brand recommendation for Brand X.
+
+## Key Findings
+- **Correlation**: A moderate positive correlation (r = 0.620) was found, indicating that as brand favorability increases, so does the likelihood of brand recommendation.
+- **Variance**: The R-squared value is 0.385, suggesting that 38.5% of the variance in brand recommendation can be explained by brand favorability.
+- **Regression Equation**: `Brand Recommendation = -0.087 (constant) + 0.788 * (Brand Favorability)`
+- **Statistical Significance**: The p-values for both the slope coefficient and the constant are significant (p < 0.05), allowing for the rejection of the null hypothesis.
 
 ![image](https://github.com/bhupeshdod/Simple-Linear-Regression-using-SPSS/assets/141383468/7d45b4bf-250d-43b7-9a7a-81057069c2ea)
-
-For the regression, we can reject the null hypothesis and can say that there is nonzero slope coefficient, 0.788 that can describe the relation as p < 0.001 for Brand Favorability coefficient and moreover there is nonzero constant value that is -0.087, p = 0.014 (< 0.05).
-
-**Brand Recommendation = -0.087 (constant) + 0.788 * (Brand Favorability)**
-
-From the above equation, we can say that a unit change in Brand Favorability can impact the brand recommendation by 0.788, that if brand favorability increase by 1 unit the brand recommendation will increase by 0.788.
